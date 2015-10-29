@@ -39,7 +39,7 @@ AppAsset::register($this);
             ['label' => 'Αρχική', 'url' => ['/site/index']],
             ['label' => 'Σχετκά', 'url' => ['/site/about']],
             ['label' => 'Επικοινωνία', 'url' => ['/site/contact']],
-            array('label'=>'Αθλητές', 'url'=>array('/tbl-athlete/index'), 'visible'=>!Yii::$app->user->isGuest),
+            array('label'=>'Αθλητές', 'url'=>array('/tbl-child-athlete/index'), 'visible'=>!Yii::$app->user->isGuest),
             array('label'=>'Μέλη', 'url'=>array('/tbl-member/index'), 'visible'=>!Yii::$app->user->isGuest),
             array('label'=>'Τμήματα', 'url'=>array('/tbl-group/index'), 'visible'=>!Yii::$app->user->isGuest),
             array('label'=>'Παρουσιολόγια', 'url'=>array('/tbl-attentance/index'), 'visible'=>!Yii::$app->user->isGuest),
